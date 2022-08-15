@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
+    overflow-y: scroll;
     font-family: Roboto, sans-serif;
   }
 
@@ -51,7 +51,7 @@ img {
     margin-right: 250px;
 }
 
-#beach {
+#dogs {
     display: flex;
     flex-direction: column;
     height: 250px;
@@ -107,4 +107,25 @@ img {
     display: flex;
     font-size: 18px;
     color: #444446;
+}
+
+.inspirational {
+    display: flex;
+    flex-direction: row;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #4a525e;
+    margin-top: 200px;
+    width: 900px;
+    background-color: #E5E7EB;
+    padding: 100px 502px;
+}
+
+.said {
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -80px;
+    margin-left: 1200px;
 }

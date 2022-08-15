@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    width: 100%;
     margin: 0;
     overflow-y: scroll;
     font-family: Roboto, sans-serif;
@@ -119,7 +120,7 @@ img {
     font-weight: 100;
     color: #4a525e;
     margin-top: 200px;
-    width: 900px;
+    max-width: 900px;
     background-color: #E5E7EB;
     padding: 100px 502px;
 }
@@ -135,18 +136,16 @@ img {
 .register {
     display: flex;
     flex-direction: column;
-    margin-top: 210px;
+    margin-top: 235px;
     margin-left: 420px;
     background-color: #3882F6;
-    width: 500px;
-    padding: 35px 150px 35px 375px;
+    max-width: 500px;
+    padding: 45px 150px 45px 375px;
     border: 5px solid #3882F6;
     border-radius: 10px;
-    overflow: hidden;
 }
 
 .rtoptext {
-    margin-top: 20px;
     margin-left: -285px;
     font-size: 20px;
     font-weight: bold;
@@ -161,4 +160,15 @@ img {
 .rbutton {
     margin-top: -45px;
     margin-left: 195px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: #1F2937;
+    padding: 50px;
+    color: #E5E7EB;
 }

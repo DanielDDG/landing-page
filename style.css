@@ -100,3 +100,11 @@ img {
     margin-top: 60px;
     gap: 50px;
 }
+
+.fellowsubtext {
+    margin-top: 12px;
+    gap: 40px;
+    display: flex;
+    font-size: 18px;
+    color: #444446;
+}

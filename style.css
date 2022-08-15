@@ -20,9 +20,11 @@ a {
 button {
     background-color: #3882F6;
     color: #E5E7EB;
-    padding: 8px;
-    border-radius: 25px;
-    width: 80px;
+    font-weight: 1000;
+    padding: 5px;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    width: 95px;
     margin-left: 265px;
     margin-top: 10px;
 }
@@ -128,4 +130,35 @@ img {
     font-weight: bold;
     margin-top: -80px;
     margin-left: 1200px;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+    margin-top: 210px;
+    margin-left: 420px;
+    background-color: #3882F6;
+    width: 500px;
+    padding: 35px 150px 35px 375px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.rtoptext {
+    margin-top: 20px;
+    margin-left: -285px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+.rbottomtext {
+    margin-left: -285px;
+    color:#E5E7EB
+}
+
+.rbutton {
+    margin-top: -45px;
+    margin-left: 195px;
 }
